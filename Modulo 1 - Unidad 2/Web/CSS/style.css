@@ -1,0 +1,98 @@
+Codigo Css:
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgba(19, 44, 62, 1);
+}
+
+#pagina_1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+   
+        font-family: "Jua", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-size: 5vh;
+        position: absolute;
+        left: 1.6em;
+        top: 1em;
+      
+}
+
+#menu ul{
+    
+    list-style: none;
+    margin: 0;
+    padding-left: 70em;
+    padding-top: 3.0em;
+}
+
+#menu ul li{
+    
+    padding: 1.5em;
+    display: inline-block;
+    
+}
+
+#menu ul li a{
+    
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+#menu ul li a:hover{
+    
+    color: rgb(0, 140, 255) ;
+}
+
+.presentacion h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 6vh;
+        font-weight: bold;
+        position: absolute;
+        top: 4em;
+        left: 1.3em;
+    
+
+}
+
+.jobs h1{
+       color: rgba(0, 174, 249, 1);
+       font-size: 6vh;
+       font-family: "Josefin Sans", sans-serif;
+       font-weight: bold;
+       position: absolute;
+       top: 6.1em;
+       left: 1.3em;
+}
+
+.texto p{
+    font-family: "karla", sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    position: absolute;
+    top: 19em;
+    left: 3.3em;
+
+}
