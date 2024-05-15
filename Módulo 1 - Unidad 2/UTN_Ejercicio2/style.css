@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.cubo1{
+    background-color: rgb(158, 67, 67);
+    width: 250px;
+    height: 250px;
+}
+
+.cubo1 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.cubo2{  
+    background-color: rgb(95, 192, 86);
+    width: 250px;
+    height: 250px;
+}
+
+.cubo2 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.cubo3{
+    background-color: rgb(94, 200, 214);
+    width: 250px;
+    height: 250px;
+}
+
+.cubo3 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
