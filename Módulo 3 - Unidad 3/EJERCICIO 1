@@ -1,0 +1,40 @@
+// Crear el código que dada una distancia determine el medio de transporte apropiado de acuerdo a las siguientes reglas:
+
+// 0 a 1000 metros = pie
+
+// 1000 a 10000 metros = bicicleta
+
+// 10000 a 30000 metros = colectivo
+
+// 30000 a 100000 metros = auto
+
+// +100000 = avion
+
+
+function distancia(transporte){
+
+    if (transporte <= 1000){
+        console.log("El medio de transporte es a Pie")
+    }
+
+    else if (transporte <= 10000){
+        console.log("El medio de transporte es a bicicleta")
+    }
+
+    else if (transporte <= 30000){
+        console.log("El medio de transporte es a colectivo")
+    }
+
+    else if (transporte <= 100000){
+        console.log("El medio de transporte es a auto ")
+    }
+
+    else{
+
+        console.log("El medio de transporte es a avion")
+        
+    }
+}
+
+distancia(40000)
+
