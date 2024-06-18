@@ -1,0 +1,3 @@
+var lista = [2,15,18,48,12,36,42,39]
+var mayor = Math.max(...lista);
+console.log(mayor);
