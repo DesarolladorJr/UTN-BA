@@ -1,0 +1,30 @@
+/* App.css */
+
+.Ocultar {
+    display: none;
+    position: absolute;
+    /* Saca la imagen del flujo del documento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Asegura que ocupe todo el ancho si es necesario */
+    z-index: -1;
+    /* Asegura que no cubra el menú */
+}
+
+@media (max-width: 1023px) {
+    .Ocultar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* Mantiene la imagen en el fondo */
+    }
+}
+
+@media (max-width: 639px) {
+    .Ocultar {
+        display: none;
+    }
+}
